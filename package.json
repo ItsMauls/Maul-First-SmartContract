@@ -1,0 +1,20 @@
+{
+  "name": "mau-smartcontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network sepolia",
+    "interact": "hardhat run scripts/interact.ts --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.0",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.14.0"
+  }
+}
